@@ -1,0 +1,82 @@
+.label {
+    -fx-font-size: 14px;            
+    -fx-text-fill: white;           
+    /*-fx-background-color: #4682B4;*/   
+    -fx-padding: 10px;              
+    -fx-font-weight: bold;          
+    -fx-alignment: center;          
+    -fx-padding: 3;
+
+}
+
+.text-field {
+    -fx-background-color: lightblue;  
+    -fx-border-color: #4682B4;       
+    -fx-border-width: 1px;          
+    -fx-text-fill: black;             
+    -fx-font-size: 14px;              
+    -fx-padding: 10px;                
+    -fx-border-radius: 5px;       
+
+}
+
+.custom-text-field {
+    -fx-background-color: lightgreen; 
+    -fx-border-color: green;          
+    -fx-text-fill: white;              
+}
+
+
+
+.grid-pane {
+    -fx-background-color: blue;       
+}
+
+
+.text-field:focused {
+    -fx-border-color: darkgreen;    
+    -fx-background-color: lightyellow;
+}
+
+
+.text-field {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0.5, 1, 1); 
+}
+
+.root{
+    -fx-background-color: radial-gradient(center 50% 50%,radius 50%,#9CCDDB,#5790AB);
+}
+
+
+.button {
+    -fx-background-color: #0047AB;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-width:15px;
+    -fx-margin-top:10px;
+    -fx-effect: dropshadow(gaussian,#ffffff, 10, 0.5, 2, 2);
+}
+
+.button:hover{
+    -fx-background-color: #6495ED;
+
+
+
+
+}
+
+.button:pressed{
+    -fx-effect: unset;
+}
+
+.title{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+
+
+
+}
+
